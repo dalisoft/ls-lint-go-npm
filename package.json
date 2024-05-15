@@ -1,6 +1,6 @@
 {
   "name": "ls-lint-go-npm",
-  "version": "2.2.3",
+  "version": "2.2.2",
   "type": "module",
   "description": "An extremely fast directory and filename linter - Bring some structure to your project filesystem",
   "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, Lucas Löffel <lucas@loeffel.io>",
