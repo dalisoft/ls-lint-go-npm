@@ -1,4 +1,8 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.requireConfig": false
+  "prettier.requireConfig": false,
+  "prettier.enable": true,
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

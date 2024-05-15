@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@ls-lint/ls-lint": "^2.2.3",
+    "ls-lint-go-npm": ".."
+  }
+}

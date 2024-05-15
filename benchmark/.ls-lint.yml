@@ -1,0 +1,6 @@
+ls:
+  .json: kebab-case
+  .sh: lowercase
+
+ignore:
+  - "node_modules"
