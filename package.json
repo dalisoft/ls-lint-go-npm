@@ -1,0 +1,36 @@
+{
+  "name": "ls-lint-go-npm",
+  "version": "2.2.3",
+  "type": "module",
+  "description": "An extremely fast directory and filename linter - Bring some structure to your project filesystem",
+  "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, Lucas Löffel <lucas@loeffel.io>",
+  "files": [
+    "prepare.js"
+  ],
+  "bin": {
+    "ls-lint": "./ls-lint"
+  },
+  "engines": {
+    "node": ">=18.19.1"
+  },
+  "scripts": {
+    "postinstall": "node ./prepare.js"
+  },
+  "keywords": [
+    "linter",
+    "filesystem-linter",
+    "ls-lint"
+  ],
+  "dependencies": {
+    "binary2npm": "https://github.com/dalisoft/binary2npm#v0.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalisoft/ls-lint-go-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dalisoft/ls-lint-go-npm/issues"
+  },
+  "homepage": "https://github.com/dalisoft/ls-lint-go-npm#readme",
+  "license": "Apache-2.0"
+}
