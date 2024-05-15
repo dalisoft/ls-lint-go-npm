@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  repository: conventionalcommit/commitlint
-  project: commitlint
+  repository: loeffel-io/ls-lint
+  project: ls-lint
 
 jobs:
   remote-release:
